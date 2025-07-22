@@ -1,11 +1,12 @@
 os: linux
 dist: focal
-vm: #existing key
+vm:
 create:
-name: my_custom_name #unique name
+name: custom_Himanshu_example
 before_install:
-
-sudo apt-get -y install libxml2-dev
+-sudo apt-get -y install libxml2-dev
 addons:
 apt:
 update: true
+script:
+- echo "OK8"
